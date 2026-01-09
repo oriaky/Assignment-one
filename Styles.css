@@ -30,7 +30,7 @@ header {
     padding-bottom: 16px;
 }
 nav {
-    height: 92px;
+    height: 60px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -108,4 +108,20 @@ nav .Na1 a {
 }
 .banner-font-1 {
     font-size: 72px;
+}
+.solution-main-div {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    padding: 68px;
+}
+
+.sol-text{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 80px;
+}
+.benefits {
+
 }
