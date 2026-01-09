@@ -5,10 +5,11 @@
 .btn1 {
     border: none;
     background-color: rgba(48, 184, 104, 1);
-    padding: 12.5px 16px;
+    padding: 12.5px 14px;
     border-radius: 4px;
     color: white;
     cursor: pointer;
+    font-size: 16px;
 }
 #button2 {
     background: none;
@@ -111,7 +112,7 @@ nav .Na1 a {
 }
 .solution-main-div {
     display: flex;
-    height: 800px;
+    height: 600px;
     width: 100%;
     padding: 68px;
 }
@@ -120,8 +121,22 @@ nav .Na1 a {
     display: flex;
     flex-direction: column;
     gap: 28px;
-    padding: 80px;
+    padding: 80px 0px 80px 0px;
 }
-.benefits {
-
+.Early-access-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+.contents {
+    background-color: rgba(247, 246, 242, 1);
+    height: 320px;
+    width: 80%;
+    border-radius: 12px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
