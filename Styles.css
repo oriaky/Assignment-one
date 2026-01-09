@@ -1,0 +1,96 @@
+.Font-Inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.btn1 {
+    border: none;
+    background-color: #30B868;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+* {
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+nav {
+    height: 92px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+}
+nav .Na1 {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .Na1 a {
+    text-decoration: none;
+    color: black;
+}
+#hd1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    gap: 16px;
+}
+#hd2 {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 24px;  
+}
+.hdc {
+    font-size: 24px;
+}
+.bdc {
+    font-size: 16px;
+}
+.icon-img {
+    background-color: rgba(249, 85, 85, 1);
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-div {
+    border-radius: 322px 300px;
+    border-color: #30B868;
+    border: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    height: 32px;
+    width: 32px;
+    padding: 1.5px 2.49px;
+}
+.banner {
+    background-image: url(assets/hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 1221px;
+    height: 674px;
+}
+.banner-font-1 {
+    font-size: 72px;
+}
